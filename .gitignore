@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# ignore binaries directories
+**/binaries/
+
 # Compiled Object files
 *.slo
 *.lo
