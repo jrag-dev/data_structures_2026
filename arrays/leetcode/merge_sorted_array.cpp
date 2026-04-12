@@ -93,11 +93,11 @@ int main()
     */
 
     std::cout << "\n*** Usando Fusión desde atrás (In-Place) ***" << std::endl;
-    merge_two_pointers(nums1, 3, nums2, 3);
+    merge_in_place(nums1, 3, nums2, 3);
     std::cout << nums1.size() <<  std::endl;
     show_array_elements(nums1);
 
-    merge_two_pointers(nums3, 0, nums4, 0);
+    merge_in_place(nums3, 0, nums4, 0);
     std::cout << nums3.size() <<  std::endl;
     show_array_elements(nums3);
 
