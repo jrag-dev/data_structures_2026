@@ -3,6 +3,7 @@
 
 # ignore binaries directories
 **/binaries/
+**/build/
 
 # Compiled Object files
 *.slo
